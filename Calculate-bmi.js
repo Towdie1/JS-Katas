@@ -19,4 +19,3 @@ function bmi(weight, height) {
 
   console.log(bmi(68,1.73));
 
-  var aLittleSausage;
