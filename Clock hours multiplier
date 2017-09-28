@@ -3,3 +3,5 @@ function past(h, m, s){
   }
 
   console.log(past(2,5,7));
+  var sausages;
+ 
