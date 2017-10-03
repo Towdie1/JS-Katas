@@ -7,4 +7,4 @@ function sumAll(){
 
 }
 
-console.log(sumAll(2, 4, 5, 6));
+console.log(sumAll());
