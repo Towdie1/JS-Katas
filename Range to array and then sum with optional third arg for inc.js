@@ -17,4 +17,4 @@ function rangeSum(a, b, c){
 }
 
 
-console.log(rangeSum(1, 10, 2));
+console.log(rangeSum(2, 50, 3));
