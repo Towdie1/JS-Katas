@@ -18,3 +18,4 @@ function bmi(weight, height) {
   }
 
   console.log(bmi(68,1.73));
+
