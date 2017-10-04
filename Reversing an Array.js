@@ -2,7 +2,6 @@ function reverseArray (arr){
     var rarr = [];
     var i =0;
    while (i < arr.length){
-      
     var last = arr[(arr.length-1)-i++];
     rarr.push(last);
     }
