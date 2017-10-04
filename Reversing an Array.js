@@ -1,7 +1,9 @@
 function reverseArray (arr){
     var rarr = [];
-   while (arr.length >0){
-    var last = arr.pop();
+    var i =0;
+   while (i < arr.length){
+      
+    var last = arr[(arr.length-1)-i++];
     rarr.push(last);
     }
     return rarr;
@@ -18,6 +20,7 @@ function reverseInPlace(arr) {
 }
 
 var nums = [3,67,4,987,4,2343,656,7437,8776]
-x = function (arr){console.log(reverseInPlace(arr));}
+x = function (arr){console.log(reverseArray(arr));}
 
 x(nums);
+console.log(nums);
