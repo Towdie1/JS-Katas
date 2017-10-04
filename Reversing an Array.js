@@ -1,3 +1,5 @@
+
+//this is a pure function
 function reverseArray (arr){
     var rarr = [];
     var i =0;
@@ -9,7 +11,7 @@ function reverseArray (arr){
 }
 
 
-
+//this is not
 function reverseInPlace(arr) {
     for (var i = 0; i <arr.length; i++){
        var end = arr.pop();
@@ -19,7 +21,7 @@ function reverseInPlace(arr) {
 }
 
 var nums = [3,67,4,987,4,2343,656,7437,8776]
-x = function (arr){console.log(reverseArray(arr));}
+x = function (arr){console.log(reverseInPlace(arr));}
 
 x(nums);
 console.log(nums);
