@@ -1,0 +1,8 @@
+function solution(arg){
+    for (var i = 0; i<arg.length; i++){
+        var result = result.concat(arg.charAt(arg.length));
+    }
+    return result;
+}
+
+console.log(solution('hello'));
