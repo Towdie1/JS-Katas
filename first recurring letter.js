@@ -11,8 +11,8 @@ function findClosestRecurringLetter(str) {
                     result = z;
                     letter = x;
                 }
-               
-                
+
+
             }
         }
     }
