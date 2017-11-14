@@ -13,6 +13,7 @@ function rangeSum(a, b, c){
         sum = sum + list[i];
    }
    return sum;
+//    dfdfd
 
 }
 
